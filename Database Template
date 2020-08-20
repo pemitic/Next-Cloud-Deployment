@@ -7,3 +7,5 @@ CREATE DATABASE nextcloud;
 GRANT ALL PRIVILEGES ON nextcloud.* TO 'nextcloud'@'localhost'; 
 FLUSH PRIVILEGES;
 QUIT
+
+# save your credential as you will need them when you complete the nextcloud setup via web browser!!!
