@@ -1,2 +1,2 @@
-# CloudComputing
-Repository for cloud computing projects
+# Cloud Computing
+Repository for cloud based deployment projects
