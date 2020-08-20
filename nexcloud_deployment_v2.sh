@@ -89,12 +89,3 @@ sed -i '/^upload_max_filesize =/s/=.*/= 500M/' /etc/php/7.*/apache2/php.ini
 sed -i '/^post_max_size =/s/=.*/= 500M/' /etc/php/7.*/apache2/php.ini
 sed -i '/^max_execution_time =/s/=.*/= 300/' /etc/php/7.*/apache2/php.ini
 systemctl restart apache2
-
-
-# information for creating database
-CREATE USER 'nextcloud'@'localhost' IDENTIFIED BY 'StrongDBP@SSwo$d'; 
-CREATE DATABASE nextcloud; 
-GRANT ALL PRIVILEGES ON nextcloud.* TO 'nextcloud'@'localhost'; 
-FLUSH PRIVILEGES;
-QUIT
-
