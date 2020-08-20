@@ -1,4 +1,4 @@
-# Cloud Computing
+# Easy Next Cloud Deployment
 Lite Touch Deployment of NextCloud to Debian 10 "Buster" and Ubuntu 20 "Focal"
 Repository for cloud based deployment of NextCloud onto baremetal, VM and Container environments.
 Script tested on fresh installs of Debian and Ubuntu.
