@@ -1,0 +1,9 @@
+# information for creating database
+# feel free to change database username and password for nextcloud to something of your own creation.
+# enter each line after connecting to database
+
+CREATE USER 'nextcloud'@'localhost' IDENTIFIED BY 'StrongDBP@SSwo$d'; 
+CREATE DATABASE nextcloud; 
+GRANT ALL PRIVILEGES ON nextcloud.* TO 'nextcloud'@'localhost'; 
+FLUSH PRIVILEGES;
+QUIT
