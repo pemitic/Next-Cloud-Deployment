@@ -57,8 +57,8 @@ apt-get -y install php-intl php-imagick php-xml php-zip php-bcmath php-gmp redis
 systemctl restart apache2
 
 # Download Nextcloud 19 on Debian 10
-wget https://download.nextcloud.com/server/releases/latest-19.zip
-unzip latest-19.zip
+wget https://download.nextcloud.com/server/releases/latest.zip
+unzip latest.zip
 
 # move apache2 web folder and set permissions
 mv nextcloud /var/www/html/
